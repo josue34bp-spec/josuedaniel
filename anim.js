@@ -71,11 +71,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (btnCopiar) {
         btnCopiar.addEventListener('click', function() {
             const datos = `
-Nombre: Anatolli Devorak Qwerty
-Empresa: Duckling Productions / Ganzo Island
-Teléfono: +52 951 123 2222
-Correo: contacto@duckling.com
-Web: https://duckling.com
+Nombre: Josué Daniel Bernardo Pérez
+Empresa: Josué Daniel
+Teléfono: +52 951 460 4923
+Correo: josue34bp@institutosanpablo.edu.mx
+Web: https://cutt.ly/fywyQm6D
             `.trim();
 
             // Usar clipboard API con fallback
@@ -126,10 +126,10 @@ Web: https://duckling.com
             }
 
             // Construir el enlace mailto:
-            // destinatario: contacto@duckling.com
+            // destinatario: josue34bp@institutosanpablo.edu.mx
             // asunto: Solicitud de información desde la web
             // cuerpo: nombre, correo y mensaje
-            const destinatario = 'contacto@duckling.com';
+            const destinatario = 'josue34bp@institutosanpablo.edu.mx';
             const asunto = encodeURIComponent('Solicitud de información desde la web');
             const cuerpo = encodeURIComponent(
                 `Nombre: ${nombre}\nCorreo: ${correo}\n\nMensaje:\n${mensaje}`
